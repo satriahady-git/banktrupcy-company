@@ -1,2 +1,4 @@
 .env
 .venv
+.venv_fixed/
+.venv_broken_*/
