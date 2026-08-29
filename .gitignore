@@ -2,3 +2,5 @@
 .venv
 .venv_fixed/
 .venv_broken_*/
+data/raw/company_bankruptcy/data.csv
+data/raw/company_bankruptcy/data_model.csv
