@@ -109,11 +109,10 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-Install the saved requirements and the main modeling libraries:
+Install the project dependencies:
 
 ```powershell
 python -m pip install -r requirements.txt
-python -m pip install scikit-learn==1.7.2 xgboost==3.0.5 matplotlib==3.10.9 seaborn==0.13.2 kagglehub shap joblib
 ```
 
 Start Jupyter and open the notebook:
@@ -177,7 +176,3 @@ Do not evaluate the model on rows that were used during training. Model performa
 - The 0.50 classification threshold may not be optimal for every business case.
 - Threshold tuning should use validation data rather than the final test set.
 - The model is an educational example and should not be used as the only basis for a real financial decision.
-
-## License
-
-See [`LICENSE`](LICENSE) for the project license.
